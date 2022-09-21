@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 68.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+/* header section start */
+
+/* company brand */
+
+.header{
+    display: flex;
+    /* height: 50px; */
+    /* justify-content: space-around; */
+    padding-left: 200px;
+    gap: 5rem;
+    background-color:red;
+}
+.header  .company-brand{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.company-brand img{
+    width: 30px;
+    object-fit: cover;
+}
+.company-brand h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+/* company brandd end */
+
+/* navbar section start */
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    padding-top: 6.5px;
+    /* justify-content: center; */
+    gap: 5rem;
+    position:relative;
+}
+.navbar ul li{
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.navbar ul li  i{
+    padding-left:3px ;
+}
+.navbar ul li ul{
+    position:absolute;
+}
+/* navbar section end */
+
+
+
+/* header  section end */
